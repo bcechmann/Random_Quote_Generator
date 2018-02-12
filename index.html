@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Bartosz Cechmann">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Quote Generator</title>
+</head>
+
+<body>
+    <header class="header container">
+        <h1>Magic Random Quote Generator</h1>
+    </header>
+    <main class="container">
+        <div class="quote__box">
+            <p id="quote" class="quote-text"></p>
+            <p id="author" class="quote-author"></p>
+            <div class="twitter">
+                <button onclick="playSound()" id="quote-button" class="button">Next quote!</button>
+                <i class="fab fa-twitter fa-2x"></i>
+                <a id="tweet-button" class="twitter-share-button" href="" target="_blank">
+<button class="twitter-button" type="button">Tweet this!</button></a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">&copy; Created by Bartosz Cechmann
+        <div class="social">
+            <a href="https://github.com/bcechmann" target="_blank"><i class="social__icon fab fa-github-square fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/bartoszcechmann/" target="_blank"><i class="social__icon fab fa-linkedin fa-2x"></i></a>
+        </div>
+        bartek.cechmann@gmail.com
+    </footer>
+
+
+    <audio id="audio" src="sound/ClickOn.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>

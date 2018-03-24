@@ -7,14 +7,13 @@
 body {
     font-family: 'Raleway';
     height: 100vh;
-    background-color: #403237;
 }
 
 .header {
-    font-family: 'Nanum Brush Script';
-    font-size: 30px;
-    padding-top: 150px;
-    color: #F4C6A4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    padding: 50px 0;
+    color: #770021;
 }
 
 .container {
@@ -25,7 +24,7 @@ body {
 }
 
 .quote__box {
-    border: 5px solid #FED9B0;
+    border: 3px solid #770021;
     border-radius: 20px;
     width: 100%;
     height: auto;
@@ -33,19 +32,18 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    background-color: #D9D9D9;
 }
 
 .quote-text {
     padding: 50px;
     font-size: 25px;
     font-weight: bold;
-    color: white;
 }
 
 .quote-author {
     font-size: 20px;
     font-style: italic;
-    color: white;
 }
 
 .button {
@@ -55,7 +53,7 @@ body {
     padding: 10px;
     margin: 30px;
     cursor: pointer;
-    background-color: #F5A883;
+    background-color: #770021;
     box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.7);
     border-radius: 20px;
     color: black;
@@ -64,7 +62,7 @@ body {
 
 .button:hover {
     transition: 0.5s all;
-    background-color: #795B3D;
+    background-color: #53071d;
 }
 
 .twitter {
@@ -78,7 +76,7 @@ body {
     width: 150px;
     height: 40px;
     border: none;
-    background-color: #7BD4B9;
+    background-color: #4180AB;
     font-size: 20px;
     cursor: pointer;
     margin: 5px;
@@ -86,11 +84,11 @@ body {
 
 .twitter-button:hover {
     transition: 0.5s all;
-    background-color: #508876;
+    background-color: #366686;
 }
 
 .fa-twitter {
-    color: #7BD4B9;
+    color: #4180AB;
 }
 
 .footer {
